@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        android:background="@drawable/background"
+        >
+
+        <TextView
+            android:id="@+id/checkticket"
+            android:layout_width="411dp"
+            android:layout_height="62dp"
+            android:layout_gravity="bottom|clip_horizontal|center|center_horizontal|center_vertical"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif"
+            android:text="VIEW DETAILS"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:fontFamily="@font/aldrich_regular" />
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp"
+android:hint="Enter user name"
+            android:textSize="20dp"
+android:id="@+id/uname"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            />
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/round_button"
+            android:fontFamily="sans-serif"
+            android:text="SEARCH"
+            android:onClick="onClick"
+            android:id="@+id/search1"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+    </LinearLayout></ScrollView>

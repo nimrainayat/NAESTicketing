@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userLogin"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="411dp"
+        android:layout_height="62dp"
+        android:layout_gravity="bottom|clip_horizontal|center|center_horizontal|center_vertical"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif"
+        android:text="TC LOGIN "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:fontFamily="@font/aldrich_regular" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:hint="user name"
+        android:textSize="20dp"
+        android:inputType="textPersonName"
+        android:id="@+id/tcname"
+        android:layout_gravity="center"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:password="true"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:id="@+id/tcpwd"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="247dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/round_button"
+            android:fontFamily="sans-serif"
+            android:text="LOGIN"
+            android:onClick="tclogin"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

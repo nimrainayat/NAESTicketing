@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userLogin"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="411dp"
+        android:layout_height="62dp"
+        android:layout_gravity="bottom|clip_horizontal|center|center_horizontal|center_vertical"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif"
+        android:text="USER LOGIN "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:fontFamily="@font/aldrich_regular" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:hint="user name"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:id="@+id/userid"
+        android:layout_gravity="center"
+        android:textColor="@color/black"/>
+
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:password="true"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:id="@+id/password"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/round_button"
+            android:fontFamily="sans-serif"
+            android:layout_marginLeft="20dp"
+            android:text="login"
+            android:onClick="welcomeuser"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/round_button"
+            android:fontFamily="sans-serif"
+            android:text="new user?"
+            android:onClick="userRegistration"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_button"
+        android:fontFamily="sans-serif"
+        android:id="@+id/queries"
+        android:text="Back to home Page"
+        android:onClick="onClick"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+</LinearLayout>
+</ScrollView>

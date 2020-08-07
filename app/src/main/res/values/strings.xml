@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+
+<resources>
+
+    <string name="app_name">NAES Ticketing</string>
+    <string-array name="citiesNames">
+
+        <item>Karachi</item>
+
+        <item>Islamabad</item>
+
+        <item>Lahore</item>
+
+        <item>Multan</item>
+
+        <item>Peshawar</item>
+
+    </string-array>
+
+    <string-array name="seatnumber1">
+        <item>Seat#101 </item>
+        <item>Seat#102</item>
+        <item>Seat#103</item>
+        <item>Seat#104 </item>
+        <item>Seat#105 </item>
+        <item>Seat#106 </item>
+        <item>Seat#107 </item>
+        <item>Seat#108</item>
+        <item>Seat#109</item>
+        <item>Seat#110 </item>
+    </string-array>
+    <string-array name="seatnumber2">
+        <item>Seat#111 </item>
+        <item>Seat#112</item>
+        <item>Seat#113</item>
+        <item>Seat#114 </item>
+        <item>Seat#115 </item>
+        <item>Seat#116 </item>
+        <item>Seat#117 </item>
+        <item>Seat#118</item>
+        <item>Seat#119</item>
+        <item>Seat#120 </item>
+    </string-array>
+    <string-array name="seatnumber3">
+        <item>Seat#121 </item>
+        <item>Seat#122</item>
+        <item>Seat#123</item>
+        <item>Seat#124 </item>
+        <item>Seat#125 </item>
+        <item>Seat#126 </item>
+        <item>Seat#127 </item>
+        <item>Seat#128</item>
+        <item>Seat#129</item>
+        <item>Seat#130 </item>
+    </string-array>
+    <string-array name="seatnumber4">
+        <item>Seat#131 </item>
+        <item>Seat#132</item>
+        <item>Seat#133</item>
+        <item>Seat#134 </item>
+        <item>Seat#135 </item>
+        <item>Seat#136 </item>
+        <item>Seat#137 </item>
+        <item>Seat#138</item>
+        <item>Seat#139</item>
+        <item>Seat#140 </item>
+    </string-array>
+    <string-array name="seatnumber5">
+        <item>Seat#141 </item>
+        <item>Seat#142</item>
+        <item>Seat#143</item>
+        <item>Seat#144 </item>
+        <item>Seat#145 </item>
+        <item>Seat#146 </item>
+        <item>Seat#147 </item>
+        <item>Seat#148</item>
+        <item>Seat#149</item>
+        <item>Seat#150 </item>
+    </string-array>
+    <string-array name="seatnumber6">
+        <item>Seat#151 </item>
+        <item>Seat#152</item>
+        <item>Seat#153</item>
+        <item>Seat#154 </item>
+        <item>Seat#155 </item>
+        <item>Seat#156 </item>
+        <item>Seat#157 </item>
+        <item>Seat#158</item>
+        <item>Seat#159</item>
+        <item>Seat#160 </item>
+    </string-array>
+    <string-array name="seatnumber7">
+        <item>Seat#161 </item>
+        <item>Seat#162</item>
+        <item>Seat#163</item>
+        <item>Seat#164 </item>
+        <item>Seat#165 </item>
+        <item>Seat#166 </item>
+        <item>Seat#167 </item>
+        <item>Seat#168</item>
+        <item>Seat#169</item>
+        <item>Seat#170 </item>
+    </string-array>
+    <string-array name="seatnumber8">
+        <item>Seat#171 </item>
+        <item>Seat#172</item>
+        <item>Seat#173</item>
+        <item>Seat#174 </item>
+        <item>Seat#175 </item>
+        <item>Seat#176 </item>
+        <item>Seat#177 </item>
+        <item>Seat#178</item>
+        <item>Seat#179</item>
+        <item>Seat#180 </item>
+    </string-array>
+    <string-array name="seatnumber9">
+        <item>Seat#181 </item>
+        <item>Seat#182</item>
+        <item>Seat#183</item>
+        <item>Seat#184 </item>
+        <item>Seat#185 </item>
+        <item>Seat#186 </item>
+        <item>Seat#187 </item>
+        <item>Seat#188</item>
+        <item>Seat#189</item>
+        <item>Seat#190 </item>
+    </string-array>
+    <string-array name="seatnumber10">
+        <item>Seat#191 </item>
+        <item>Seat#192</item>
+        <item>Seat#193</item>
+        <item>Seat#194 </item>
+        <item>Seat#195 </item>
+        <item>Seat#196 </item>
+        <item>Seat#197 </item>
+        <item>Seat#198</item>
+        <item>Seat#199</item>
+        <item>Seat#200 </item>
+    </string-array>
+
+
+    <string-array name="trainnames">
+        <item>Awam Express</item>
+        <item>Badar Express</item>
+        <item>Chenab Express</item>
+        <item>Dachi Express</item>
+        <item>Faisal Express</item>
+        <item>Mehr Express</item>
+        <item>Qalandar Express</item>
+        <item>Ravi Express</item>
+        <item>Super Express</item>
+        <item>Shalimar Express</item>
+    </string-array>
+    <string-array name="trainnames1">
+        <item>Awam Express at 10:00 A.M</item>
+        <item>Badar Express at 02:00 P.M</item>
+    </string-array>
+    <string-array name="trainnames2">
+        <item>Chenab Express at 08:00 A.M</item>
+        <item>Dachi Express at 06:00 P.M</item>
+        <item>Faisal Express at 04:00 P.M</item>
+
+    </string-array>
+    <string-array name="trainnames3">
+        <item>Mehr Express at 11:00 P.M</item>
+        <item>Qalandar Express at 10:00 P.M</item>
+
+    </string-array>
+    <string-array name="trainnames4">
+        <item>Ravi Express at 09:00 P.M</item>
+        <item>Super Express at 08:00 P.M</item>
+        <item>Shalimar Express at 07:00 P.M</item>
+    </string-array>
+    <string-array name="trainnames5">
+        <item>Awam Express at 06:00 A.M</item>
+        <item>Badar Express at 05:00 P.M</item>
+    </string-array>
+
+    <string-array name="ticketsnumber">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+
+</resources>

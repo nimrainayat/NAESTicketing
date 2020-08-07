@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondPage"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="411dp"
+        android:layout_height="62dp"
+        android:layout_gravity="bottom|clip_horizontal|center|center_horizontal|center_vertical"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif"
+        android:text="Who are you? "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:fontFamily="@font/aldrich_regular" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:background="@drawable/round_button"
+        android:text="USER"
+        android:onClick="userlogin"
+        android:textSize="30sp"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:background="@drawable/round_button"
+        android:text="TICKET CHECKER"
+        android:onClick="onCheck"
+        android:textSize="30sp"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:background="@drawable/round_button"
+        android:text="BACK"
+        android:onClick="onBack"
+        android:textSize="30sp"/>
+
+</LinearLayout>
+</ScrollView>
